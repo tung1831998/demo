@@ -1,3 +1,4 @@
+
 var User = require("./user");
 var Food = require("./food");
 
@@ -8,3 +9,15 @@ user1.eat(food1);
 user1.eat(food2);
 
 console.log(user1);
+
+var user = require("./hello");
+var food = require("./food");
+
+var user = new user('tùng');
+
+user.sayHi();
+
+var food = new food('hambuger');
+
+user.eat(food);
+
