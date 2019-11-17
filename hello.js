@@ -1,4 +1,4 @@
 function hello(){
-    console.log('xin chào');
+    console.log('xin chào các bạn');
 }
 
